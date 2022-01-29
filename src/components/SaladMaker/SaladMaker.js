@@ -21,7 +21,6 @@ const useStyles = createUseStyles({
 });
 
 function reducer(state, item) {
-  console.log(item);
   return [...state, item];
 }
 
